@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm John Doe</h1>
+    <p>Aspiring Developer | Python Enthusiast</p>
+    <nav>
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('contact') }}">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+       <p style="text-align: justify;">
+  I’m a passionate learner exploring the world of web development and programming. 
+  I enjoy building small projects with Python and Flask, experimenting with new technologies, 
+  and solving real-world problems through code. My goal is to grow as a developer and 
+  create applications that make a positive impact.
+</p>
+
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>Portfolio Website (this one!)</li>
+        <li>Flask Blog</li>
+        <li>Data Analysis Project</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
