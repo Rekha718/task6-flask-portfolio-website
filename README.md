@@ -11,18 +11,18 @@ with a form.
 
 ## 🚀 Features
 
--   Homepage with bio and project list\
--   Contact form with success message\
--   Styled with CSS\
+-   Homepage with bio and project list
+-   Contact form with success message
+-   Styled with CSS
 -   Flask routing & templates (Jinja2)
 
 ------------------------------------------------------------------------
 
 ## 🛠️ Installation & Run
 
-1.  Clone or download the project.\
+1.  Clone or download the project.
 
-2.  Open a terminal inside the project folder.\
+2.  Open a terminal inside the project folder.
 
 3.  Install Flask (if not already installed):
 
